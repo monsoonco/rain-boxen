@@ -68,6 +68,11 @@ node default {
   include nodejs::v0_8
   include nodejs::v0_10
 
+  # Other modules
+  include wget
+  include chrome
+  include firefox
+
   # default ruby versions
   ruby::version { '1.9.3': }
   ruby::version { '2.0.0': }
@@ -83,7 +88,7 @@ node default {
     ]:
   }
 
-  file { "${boxen::config::srcdir}/our-boxen":
+  file { "${boxen::config::srcdir}/rain-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
