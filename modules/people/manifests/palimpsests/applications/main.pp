@@ -6,7 +6,7 @@ class people::palimpsests::applications::main {
   # include csshx
   # include ctags
   include mongodb
-  include mysql
+  # include mysql
   include phantomjs
   include postgresql
   # include tmux
