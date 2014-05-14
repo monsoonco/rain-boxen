@@ -18,7 +18,7 @@ class people::palimpsests::applications::main {
   # include colloquy
   include chrome::canary
   # include cyberduck
-  include emacs
+  # include emacs
   # include fluid
   include flux
   include iterm2::dev
