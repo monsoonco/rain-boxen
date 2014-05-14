@@ -5,7 +5,7 @@
 # ENV['BOXEN_HOME'] = '/opt/boxen'
 
 # Change the repo boxen will use.
-# ENV['BOXEN_REPO_NAME'] = 'boxen/our-boxen'
+ENV['BOXEN_REPO_NAME'] = 'monsoonco/rain-boxen'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
@@ -23,3 +23,9 @@
 
 # required for Github Enterprise (defaults to "https://github.com/%s")
 # ENV['BOXEN_REPO_URL_TEMPLATE'] = 'https://github.yourdomain.com/%s'
+
+# Set ports back to defaults
+# TODO: verify this works
+ENV["BOXEN_MYSQL_PORT"] = "3306"
+ENV["BOXEN_POSTGRESQL_PORT"] = "5432"
+ENV["BOXEN_MONGODB_PORT"] = "27017"
