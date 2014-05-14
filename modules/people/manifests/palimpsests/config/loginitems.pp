@@ -14,12 +14,6 @@ class people::palimpsests::config::loginitems {
       path    => '/Applications/Calendar.app',
       hidden  => true;
 
-    'ClipMenu':
-      name    => 'ClipMenu',
-      path    => '/Applications/ClipMenu.app',
-      hidden  => true,
-      require => Class['clipmenu'];
-
     'Flux':
       name    => 'Flux',
       path    => '/Applications/Flux.app',
@@ -31,17 +25,17 @@ class people::palimpsests::config::loginitems {
       path    => '/Applications/Messages.app',
       hidden  => true;
 
-    'Rdio':
-      name    => 'Rdio',
-      path    => '/Applications/Rdio.app',
-      hidden  => true,
-      require => Class['rdio'];
+    # 'Rdio':
+    #   name    => 'Rdio',
+    #   path    => '/Applications/Rdio.app',
+    #   hidden  => true,
+    #   require => Class['rdio'];
 
-    'Slate':
-      name    => 'Slate',
-      path    => '/Applications/Slate.app',
-      hidden  => true,
-      require => Class['slate'];
+    # 'Slate':
+    #   name    => 'Slate',
+    #   path    => '/Applications/Slate.app',
+    #   hidden  => true,
+    #   require => Class['slate'];
   }
 
 }
