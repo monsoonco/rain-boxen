@@ -10,7 +10,7 @@ class people::palimpsests::config::osx {
     command => 'systemsetup -setrestartfreeze on',
   }
 
-  include osx_config::animations
+  # include osx_config::animations
   include osx_config::dashboard
   include osx_config::desktop
   include osx_config::disable_gatekeeper
