@@ -23,7 +23,7 @@ class people::palimpsests::applications::main {
   include flux
   include iterm2::dev
   # include mou
-  include openoffice
+  # include openoffice
   include rdio
   # include sequel_pro
   # include skype
