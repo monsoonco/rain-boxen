@@ -2,37 +2,37 @@ class people::palimpsests::applications::main {
 
   notify { 'class people::palimpsests::applications::main declared': }
 
-  # include clojure
+  include clojure
   # include csshx
   # include ctags
   include mongodb
   include mysql
   include phantomjs
   include postgresql
-  include tmux
+  # include tmux
   include zsh
 
   include alfred2
-  include appcleaner
-  include clipmenu
-  include colloquy
+  # include appcleaner
+  # include clipmenu
+  # include colloquy
   include chrome::canary
-  include cyberduck
+  # include cyberduck
   include emacs
-  include fluid
+  # include fluid
   include flux
   include iterm2::dev
-  include mou
+  # include mou
   include openoffice
   include rdio
-  include sequel_pro
-  include skype
-  include slate
+  # include sequel_pro
+  # include skype
+  # include slate
   include transmission
-  include tunnelblick
+  # include tunnelblick
   include virtualbox
   include vlc
-  include vmware_fusion
+  # include vmware_fusion
 
 
   # Homebrew Packages
