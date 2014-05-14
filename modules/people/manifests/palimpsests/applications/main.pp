@@ -3,8 +3,8 @@ class people::palimpsests::applications::main {
   notify { 'class people::palimpsests::applications::main declared': }
 
   # include clojure
-  include csshx
-  include ctags
+  # include csshx
+  # include ctags
   include mongodb
   include mysql
   include phantomjs
