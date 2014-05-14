@@ -2,7 +2,7 @@ class people::palimpsests::applications::main {
 
   notify { 'class people::palimpsests::applications::main declared': }
 
-  include clojure
+  # include clojure
   include csshx
   include ctags
   include mongodb
