@@ -24,7 +24,7 @@ class people::palimpsests::applications::main {
   include iterm2::dev
   # include mou
   # include openoffice
-  include rdio
+  # include rdio
   # include sequel_pro
   # include skype
   # include slate
