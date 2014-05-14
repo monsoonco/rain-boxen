@@ -28,7 +28,7 @@ class people::palimpsests::applications::main {
   # include sequel_pro
   # include skype
   # include slate
-  include transmission
+  # include transmission
   # include tunnelblick
   # include virtualbox
   include vlc
