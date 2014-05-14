@@ -12,7 +12,7 @@ class people::palimpsests::applications::main {
   # include tmux
   include zsh
 
-  include alfred2
+  include alfred
   # include appcleaner
   # include clipmenu
   # include colloquy

@@ -4,10 +4,10 @@ class people::palimpsests::config::loginitems {
 
   osx_login_item {
     'Alfred 2':
-      name    => 'Alfred 2',
-      path    => '/Applications/Alfred 2.app',
+      name    => 'Alfred',
+      path    => '/Applications/Alfred.app',
       hidden  => true,
-      require => Class['alfred2'];
+      require => Class['alfred'];
 
     'Calendar':
       name    => 'Calendar',
