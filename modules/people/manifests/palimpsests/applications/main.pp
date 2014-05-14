@@ -30,7 +30,7 @@ class people::palimpsests::applications::main {
   # include slate
   include transmission
   # include tunnelblick
-  include virtualbox
+  # include virtualbox
   include vlc
   # include vmware_fusion
 
