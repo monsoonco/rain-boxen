@@ -62,6 +62,7 @@ github "xquartz",       "1.1.1"
 
 github "alfred",          "1.1.8"
 github "chrome",          "1.1.2"
+github "dockutil",        "0.1.2", :repo => "grahamgilbert/puppet-dockutil"
 github "dropbox",         "1.2.0"
 github "firefox",         "1.1.9"
 github "flux",            "1.0.1"
